@@ -53,10 +53,15 @@ python manage.py startapp product.
 
 Product is a package: w can re-use it in another Django application / project.
 We can publish this package to make it available to others to re-use it in their project.
+
 I]  admin.py  : we can set the look of our admin page, how it gonna look like.
+
 II]apps.py     : to store various configuration to our app.
+
 III] models.py : To modelling the concepts in our app => product, category, review, rating, feedback by using various classes.
+
 IV] test.py : we write automated test for this app.
+
 V] view.py  : we define what should the user see when we navigate to certain page.
 
 HOW VIEW WORKS?
