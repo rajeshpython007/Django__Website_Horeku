@@ -3,16 +3,24 @@ A retail B-C website using Python-Django
 ![image](https://user-images.githubusercontent.com/100021707/195915859-7d75d234-f354-4b0c-ab0b-2a3e484cad84.png)
  
 WHY DJANGO-FRAME-WORK?
-1.	Fast, Scalable, Secure – Used by perfectionist with deadlines.
-2.	Spotify, YouTube, Instagram
+	Fast, Scalable, Secure – Used by perfectionist with deadlines.
+        Websites such as Spotify, YouTube, Instagram are created by it.
+
+
 WHAT IS THIS DJANGO FRAME_WORK? 
+
 1.	A library having re-usable modules(building blocks) – can be used using 
 I]     HTTP-URL
 II]   SQL – other database server.
 III] HTML
+
 2.	We don’t need to code it from scratch – Everything is inbuilt here.
+
 3.	It defines a structure for application – what folders and files we must have in our project.
+
 4.	It provides consistency as we move to Django various different projects.
+
+
 STEPS:
 1.	Create projects: Pylab
 2.	Install Django: pip install Django == 4.0 [@terminal]
@@ -42,6 +50,7 @@ II]apps.py     : to store various configuration to our app.
 III] models.py : To modelling the concepts in our app => product, category, review, rating, feedback by using various classes.
 IV] test.py : we write automated test for this app.
 V] view.py  : we define what should the user see when we navigate to certain page.
+
 HOW VIEW WORKS?
 Home Page Of Django :
 ![image](https://user-images.githubusercontent.com/100021707/196840349-9cf10c15-4987-4821-9d72-87b61da8332f.png)
